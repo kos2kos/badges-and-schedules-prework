@@ -21,10 +21,10 @@ end
 def printer(attendees)
   temp =  batch_badge_creator(attendees)
   temp.each do |names|
-    puts temp[names]
+    puts temp
   end
   temp2 = assign_rooms(attendees)
   temp2.each do |room|
-    puts temp[room]
+    puts temp
   end
 end
