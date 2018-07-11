@@ -23,12 +23,12 @@ def printer(attendees)
   i = 0
   while i < temp.size 
     puts temp[i]
-    i+=0
+    i+=1
   end
   j = 0
   temp2 = assign_rooms(attendees)
   while i < temp2.size 
     puts temp2[j]
-    j+=0
+    j+=1
   end
 end
