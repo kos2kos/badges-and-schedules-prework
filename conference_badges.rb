@@ -6,7 +6,7 @@ end
 def batch_badge_creator (arr)
   temp = []
   arr.each do |names|
-    temp << badge_maker(names)
+    temp = temp << badge_maker(names)
   end
 end
 
@@ -18,7 +18,3 @@ def assign_rooms(speakers)
   return rooms 
 end
 
-def printer(attendees)
-  badge_maker(attendees)
-  assign_rooms(attendees)
-end
