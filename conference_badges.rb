@@ -18,5 +18,7 @@ def assign_rooms(speakers)
   return rooms 
 end
 
-def printer
-  badge_maker
+def printer(attendees)
+  badge_maker(attendees)
+  assign_rooms(attendees)
+end
